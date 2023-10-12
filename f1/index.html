@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Form</title>
+</head>
+<body>
+    <h1>Attendance Form</h1>
+    
+    <form action="process_attendance.php" method="post">
+        <table>
+            <tr>
+                <th>Student Name</th>
+                <th>Roll Number</th>
+                <th>Present</th>
+                <th>Absent</th>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>001</td>
+                <td><input type="radio" name="john_attendance" value="Present"></td>
+                <td><input type="radio" name="john_attendance" value="Absent"></td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>002</td>
+                <td><input type="radio" name="jane_attendance" value="Present"></td>
+                <td><input type="radio" name="jane_attendance" value="Absent"></td>
+            </tr>
+            <!-- Add more rows for additional students -->
+        </table>
+        
+        <input type="submit" value="Submit Attendance">
+    </form>
+</body>
+</html>
