@@ -1,0 +1,3 @@
+hello everyone 
+good afternoon
+there are around 15 basic git commands to learn
